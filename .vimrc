@@ -21,11 +21,6 @@ set hlsearch     " Highlight matched search pattern
 set autoindent   " always set autoindenting on
 set ruler        " Show cursor position
 
-" Shortcuts for tabs
-:nmap <C-S-t> :tabnew<CR>
-:nmap <M-Right> :tabnext<CR>
-:nmap <M-Left> :tabprev<CR>
-
 match ErrorMsg '\s\+$'
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
